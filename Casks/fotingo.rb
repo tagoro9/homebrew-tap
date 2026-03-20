@@ -3,7 +3,7 @@ cask "fotingo" do
   name "fotingo"
   desc "CLI to streamline workflows across Git, GitHub, and Jira."
   homepage "https://github.com/tagoro9/fotingo"
-  version "5.0.0-pr-1042.13.1.1"
+  version "5.0.0-pr-1042.14.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "fotingo" do
   on_macos do
     on_intel do
       url "https://github.com/tagoro9/fotingo/releases/download/v#{version}/fotingo_#{version}_darwin_amd64.tar.gz"
-      sha256 "e486582be960f456b887340993bc0245e987b0bc4a7859776460ff71d39a0681"
+      sha256 "f3365dfb3a8945a0cef9cc0dc8f768b76182d3cdb729883c33f39ddc3e1891df"
     end
     on_arm do
       url "https://github.com/tagoro9/fotingo/releases/download/v#{version}/fotingo_#{version}_darwin_arm64.tar.gz"
-      sha256 "822188ac94a052b131b89b66aa84d7b8259085f99a3e03cc316dda32dc181ea7"
+      sha256 "fbaac3430fd19adb66b19c4583225e867c6c51a990ab7f430bcf97bbb5cdca49"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/tagoro9/fotingo/releases/download/v#{version}/fotingo_#{version}_linux_amd64.tar.gz"
-      sha256 "da694e219076363b8313374077ea64a8507612bff4e50fdd00359d9366633a2d"
+      sha256 "4c455f21054e87c9d607cedb3b8fd3bb00687ec04b6a0be1a2aa77f1bc36da73"
     end
     on_arm do
       url "https://github.com/tagoro9/fotingo/releases/download/v#{version}/fotingo_#{version}_linux_arm64.tar.gz"
-      sha256 "ce8330a8f62fd49063615f1814a44cdf1dc20e19d7d8931e5e13a23017ab17f4"
+      sha256 "93dacf4d9670eb3990a42d1a5d889a0c1b957c45ff77f11f3fc70245b6d36649"
     end
   end
 
